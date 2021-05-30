@@ -382,6 +382,165 @@ input[type='checkbox'] {
 	color: #00bfd8;
 }
 
+
+
+/* === Home === */
+/* === Home === */
+#home-page{
+	background-image: url(../images/slider.jpg);
+	position: relative;
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.home-bg{
+	background: rgba(0, 0, 0, 0.7);
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.main-logo {
+	margin-bottom: 50px;
+}
+
+.home-page h1{
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 900;
+	letter-spacing: 0.03em;
+}
+
+.home-page h2{
+	font-size: 40px;
+	color: #ffffff;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+}
+
+.home-page p{
+	font-size: 14px;
+	color: #fefefe;
+	margin-bottom: 20px;
+}
+
+.tk-countdown {
+	color: #fff;
+	margin-top: 35px;
+	text-align: center;
+	margin-bottom: 65px;
+}
+
+.tk-countdown > * {
+	text-align: center;
+}
+
+.tk-countdown div.days{
+	border: 2px solid;
+	border-radius: 0px;
+	width: 120px;
+	height: 120px;
+	padding-top: 15px;
+	margin: 15px;
+}
+
+.tk-countdown div.hours{
+	border: 2px solid;
+	border-radius: 0px;
+	width: 120px;
+	height: 120px;
+	padding-top: 15px;
+	margin: 15px;
+}
+
+.tk-countdown div.minutes{
+	border: 2px solid;
+	border-radius: 0px;
+	width: 120px;
+	height: 120px;
+	padding-top: 15px;
+	margin: 15px;
+}
+
+.tk-countdown div.seconds{
+	border: 2px solid;
+	border-radius: 0px;
+	width: 120px;
+	height: 120px;
+	padding-top: 15px;
+	margin: 15px;
+}
+
+.tk-countdown div {
+	display: inline-block;
+}
+
+.tk-countdown div span {
+	display: block; 
+}
+
+.tk-countdown div span:first-child {
+	height: 64px;
+	font-family: 'pt sans', sans-serif;
+	font-weight: 300;
+	font-size: 60px;
+	line-height: 64px;
+	color: #f7f7f7;
+}
+
+.tk-countdown div span:last-child {
+	height: 20px;
+	font-family: 'pt sans', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.subscribe-area .form-control{
+	background: transparent;
+	border: 1px solid;
+	width: 270px;
+	border-radius: 0px;
+	color: #808b8d;
+	margin-right: -4px;
+	display: inline-block;
+	line-height: 18px;
+	font-size: 14px;
+	height: 40px;
+}
+
+.submit-bt{
+	color: #fff;
+	border: 1px solid;
+	font-size: 19px;
+	padding: 6px 20px 8px 20px;
+	border-radius: 0px;
+	line-height: 25px;
+	height: 40px;
+	margin-top: -3px;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+	color: #fff;
+}
+
+.st-subscribe-message{
+	color: #fff;
+	font-weight: 400;
+	margin-top: 8px;
+}
+
+.st-subscribe-message .fa-warning{
+	color: #FA1818;
+}
+
+.st-subscribe-message .fa-check{
+	color: #00C227;
+}
+
+
+
 /* Form Success And Error Message Formatting */
 #rmsgSubmit.h3.text-center.tada.animated,
 #cmsgSubmit.h3.text-center.tada.animated,
